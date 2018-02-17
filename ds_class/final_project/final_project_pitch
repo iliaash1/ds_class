@@ -1,0 +1,18 @@
+How does the time of day affect an order?
+ 
+Using the instacart data I will examine how the time of day affects orders.  
+Is there a correlation between customers who order during a specific time of day and the days from the last order?
+Are there correlations between the types of items ordered and the time of day?  What types of items are ordered the most during different times of the day?
+Is there a correlation between the number of times an item is reordered and the time of day?
+Using the orders data within the instacart file downloaded I will filter out those orders that are used for testing and for training, leaving only those within the prior orders datasets.
+After filtering the dataset I will join the orders csv to the order products prior csv on the order id.  From there I can see how often the product was ordered, and during what time of day.  Then using the products csv joining the order products prior csv on the product id I can see specifically what was ordered and during the time of day.  Also looking at the orders csv I'll take a look at the user id and the time of day the customer placed the order, along with the how many days since the customers last order.  Seeing if there is a correlation between those customers who place orders in the evening and number of days from their last order. 
+
+
+
+
+
+
+
+
+
+ 
